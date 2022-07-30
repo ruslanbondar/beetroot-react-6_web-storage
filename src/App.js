@@ -6,7 +6,6 @@ import Todos from './pages/Todos';
 
 function App() {
   const { pathname } = useLocation();
-  console.log(pathname);
 
   return (
     <div>

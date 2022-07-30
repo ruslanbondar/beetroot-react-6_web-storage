@@ -4,8 +4,8 @@ function Home() {
   localStorage.setItem('title', 'my title');
   localStorage.setItem('title1', 'my title 1');
 
-  const keys = localStorage.key(1);
-  console.log(keys);
+  const key = localStorage.key(1);
+  console.log(key);
 
   console.log(localStorage.length);
 
